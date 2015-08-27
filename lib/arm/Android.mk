@@ -8,7 +8,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 LOCAL_MODULE_TAGS := optional
 LOCAL_LDLIBS    := -lm -llog
-LOCAL_SHARED_LIBRARIES := libsocketcan_canbus
+LOCAL_SHARED_LIBRARIES := libsocketcan_canbus libedm_canbus
 
 
 include $(BUILD_PREBUILT)
